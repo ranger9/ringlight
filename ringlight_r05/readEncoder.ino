@@ -10,6 +10,8 @@ static void _ResetPins()
   digitalWrite(dpInEncoderB, HIGH);
   pinMode(dpInEncoderPress, INPUT);
   digitalWrite(dpInEncoderPress, HIGH);
+  
+  //do the same for the mode selector switch
   pinMode(SWITCH, INPUT);
   digitalWrite(SWITCH, HIGH);
 }
